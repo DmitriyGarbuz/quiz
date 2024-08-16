@@ -1,0 +1,114 @@
+$Open: 'Open Sans', sans-serif;
+$Proxima: 'Proxima Nova', sans-serif;
+$ptSans:  'PT Sans', sans-serif;
+
+$colorBlue: #23b3fe;
+$colorGrey: #a1a7ac;
+$colorBack: #26292d;
+$colorCont: #24272b;
+$colorFb: #2690c3;
+$colorVeryGrey: #5b5d60;
+$colorOrange: #E59631;
+$colorBrown: rgba(71, 41, 2,0.8);
+
+body{
+    background-color: #000000;
+   }
+   .header { 
+    background-image: url('../img/back.png');  
+    background-size: 100% 100%; 
+    height: 16rem;
+       .pumpkin {
+           margin-top: 1rem;
+           background-image: url('../img/pumpkin.png');
+           background-size: 100% 100%;
+           width: 20rem;
+           height: 13rem;
+       }
+.eye {
+    display: inline-block;
+width: 45px;
+height: 37px;
+background: #220D04;
+border-radius: 50%;
+position: relative;
+overflow: hidden;
+margin: 20px;
+margin-top: 5.1rem;
+
+}
+.ball {
+    width: 15px;
+    height: 15px;
+    background: #E7B505;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ border: 3px solid  rgba(104, 53, 11, 0.486);  
+ box-shadow: 0px 0px 10px rgb(255, 123, 0);
+}
+   }
+
+.cv {
+    margin-top: 1rem;
+    display: none;
+    transition-duration: .2s;
+    .row {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    .block-orange{
+        background-color: $colorOrange;
+        border-radius: 30px;
+    }
+    i{
+        margin: 0.5rem;
+        width: 30px;
+        height: 30px;
+        font-size: 2rem;
+    }
+    img {
+    margin: 2rem;
+    width: 150px;
+    border-radius: 20px;
+}
+    .col-4{
+margin-top: 2rem;
+    }
+    .col-5{
+    margin-top: 2rem;
+    }
+   .h3 {
+       font-family: $Proxima;
+   }
+   .text{
+       font-family: $ptSans;
+   }
+   hr {
+       width: 50rem;
+       border-top: 4px solid $colorBrown;
+       border-radius: 4px;
+   }
+   a{
+       color: $colorCont;
+       text-decoration: none;
+        &::before {
+        font-weight: bold;
+    }
+   }
+}
+
+
+.futer {
+    margin-top: 2rem;
+    height: 100vh;
+    img {
+        width: 150px;
+    }
+    .h2 {
+        color: $colorOrange;
+    }
+}
+

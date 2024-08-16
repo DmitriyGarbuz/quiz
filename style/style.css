@@ -1,0 +1,81 @@
+body {
+  background-color: #000000; }
+
+.header {
+  background-image: url("../img/back.png");
+  background-size: 100% 100%;
+  height: 16rem; }
+  .header .pumpkin {
+    margin-top: 1rem;
+    background-image: url("../img/pumpkin.png");
+    background-size: 100% 100%;
+    width: 20rem;
+    height: 13rem; }
+  .header .eye {
+    display: inline-block;
+    width: 45px;
+    height: 37px;
+    background: #220D04;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin: 20px;
+    margin-top: 5.1rem; }
+  .header .ball {
+    width: 15px;
+    height: 15px;
+    background: #E7B505;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid rgba(104, 53, 11, 0.486);
+    box-shadow: 0px 0px 10px #ff7b00; }
+
+.cv {
+  margin-top: 1rem;
+  display: none;
+  transition-duration: .2s; }
+  .cv .row {
+    margin-right: 0px;
+    margin-left: 0px; }
+  .cv .block-orange {
+    background-color: #E59631;
+    border-radius: 30px; }
+  .cv i {
+    margin: 0.5rem;
+    width: 30px;
+    height: 30px;
+    font-size: 2rem; }
+  .cv img {
+    margin: 2rem;
+    width: 150px;
+    border-radius: 20px; }
+  .cv .col-4 {
+    margin-top: 2rem; }
+  .cv .col-5 {
+    margin-top: 2rem; }
+  .cv .h3 {
+    font-family: "Proxima Nova", sans-serif; }
+  .cv .text {
+    font-family: "PT Sans", sans-serif; }
+  .cv hr {
+    width: 50rem;
+    border-top: 4px solid rgba(71, 41, 2, 0.8);
+    border-radius: 4px; }
+  .cv a {
+    color: #24272b;
+    text-decoration: none; }
+    .cv a::before {
+      font-weight: bold; }
+
+.futer {
+  margin-top: 2rem;
+  height: 100vh; }
+  .futer img {
+    width: 150px; }
+  .futer .h2 {
+    color: #E59631; }
+
+/*# sourceMappingURL=style.css.map */
